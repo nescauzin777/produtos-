@@ -1,97 +1,123 @@
-<!DOCTYPE html>  <html lang="pt-BR">  
-<head>  
-  <meta charset="UTF-8">  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <title>Catálogo - Achadinhos do Nescau</title>  
-  <style>  
-    html, body {  
-      margin: 0;  
-      padding: 0;  
-      height: 100%;  
-      font-family: Arial, sans-serif;  
-      background: linear-gradient(to bottom, #444, #333, #222, #111, #000);  
-      color: #fff;  
-      text-align: center;  
-    }  .container {  
-  max-width: 600px;  
-  margin: auto;  
-  padding: 20px;  
-}  
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catálogo - Achadinhos do Nescau</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #444, #333, #222, #111, #000);
+      color: #fff;
+      text-align: center;
+    }
 
-h1 {  
-  margin: 30px 0 10px;  
-  font-size: 24px;  
-  color: #fff;  
-}  
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+    }
 
-p {  
-  font-size: 14px;  
-  color: #ccc;  
-  margin-bottom: 30px;  
-}  
+    h1 {
+      margin: 30px 0 10px;
+      font-size: 24px;
+    }
 
-.product-item {  
-  display: flex;  
-  align-items: center;  
-  background: #000;  
-  border-radius: 12px;  
-  margin: 15px 0;  
-  text-decoration: none;  
-  color: #fff;  
-  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.08);  
-  transition: background 0.3s;  
-}  
+    p {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
 
-.product-item:hover {  
-  background: #111;  
-}  
+    .product-item {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      background: #111;
+      border-radius: 12px;
+      margin: 15px 0;
+      text-decoration: none;
+      color: #fff;
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.06);
+      transition: transform 0.2s, background 0.3s;
+      padding: 10px;
+    }
 
-.product-img {  
-  width: 70px;  
-  height: 70px;  
-  border-radius: 10px;  
-  object-fit: cover;  
-  margin: 10px;  
-}  
+    .product-item:hover {
+      background: #1a1a1a;
+      transform: scale(1.02);
+    }
 
-.product-name {  
-  font-size: 16px;  
-  text-align: left;  
-  padding-right: 10px;  
-}
+    .product-img {
+      width: 70px;
+      height: 70px;
+      border-radius: 10px;
+      object-fit: cover;
+      margin-right: 15px;
+    }
 
-  </style>  
-</head>  
-<body>  
-  <div class="container">  
-    <h1>📦 Catálogo - Achadinhos do Nescau</h1>  
-    <p>Confira os produtos top que separamos pra você! 🛒🔥</p>  <a href="https://collshp.com/tenis1" class="product-item">  
-  
-<a href="https://s.shopee.com.br/AA5XgYGEuc" class="product-item">  
-  <img src="tenis-tesla.png" alt="Produto 1" class="product-img">  
-  <div class="product-name"> R$81,59 TÊNIS TESLA</div>  
-</a>  
+    .product-info {
+      text-align: left;
+    }
 
-<a href="https://s.shopee.com.br/1BAizb1iBz" class="product-item">  
-  <img src="dc.png" alt="Produto 2" class="product-img">  
-  <div class="product-name"> R$51,90 TÊNIS DC unissex preto/branco</div>  
-</a>  
+    .product-name {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
 
-<a href="https://s.shopee.com.br/40UuNkXUZT" class="product-item">  
-  <img src="mizuno.png" alt="Produto 3" class="product-img">  
-  <div class="product-name">R$81,70 MIZUNO preto/marrom claro</div>  
-</a>  
+    .product-desc {
+      font-size: 13px;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📦 Catálogo - Achadinhos do Nescau</h1>
+    <p>Confira os produtos top que separamos pra você! 🛒🔥</p>
 
-<a href="https://s.shopee.com.br/5VJiAfsTIL" class="product-item">  
-  <img src="12mola.png" alt="Produto 4" class="product-img">  
-  <div class="product-name">R$57,20 12MOLA preto/branco</div>  
-</a>  
+    <a href="https://s.shopee.com.br/AA5XgYGEuc" class="product-item">
+      <img src="tenis-tesla.png" alt="Tênis Tesla" class="product-img">
+      <div class="product-info">
+        <div class="product-name">R$81,59 TÊNIS TESLA</div>
+        <div class="product-desc">Estilo futurista e confortável. Ideal pra quem curte drip diferenciado.</div>
+      </div>
+    </a>
 
-<a href="https://s.shopee.com.br/8paA92VK4m" class="product-item">  
-  <img src="force.png" alt="Produto 5" class="product-img">  
-  <div class="product-name">R$58,48 TÊNIS FORCE preto/branco unissex </div>  
-</a>
+    <a href="https://s.shopee.com.br/1BAizb1iBz" class="product-item">
+      <img src="dc.png" alt="Tênis DC" class="product-img">
+      <div class="product-info">
+        <div class="product-name">R$51,90 TÊNIS DC unissex</div>
+        <div class="product-desc">Modelo básico e estiloso, combina com tudo. Preço acessível demais.</div>
+      </div>
+    </a>
 
-  </div>  
-</body>  
+    <a href="https://s.shopee.com.br/40UuNkXUZT" class="product-item">
+      <img src="mizuno.png" alt="Mizuno" class="product-img">
+      <div class="product-info">
+        <div class="product-name">R$81,70 MIZUNO</div>
+        <div class="product-desc">Conforto e leveza. Ótimo pra rolê ou treinar sem perder o estilo.</div>
+      </div>
+    </a>
+
+    <a href="https://s.shopee.com.br/5VJiAfsTIL" class="product-item">
+      <img src="12mola.png" alt="12 Mola" class="product-img">
+      <div class="product-info">
+        <div class="product-name">R$57,20 12MOLA</div>
+        <div class="product-desc">Com amortecimento top, é ideal pra quem curte visual mais robusto.</div>
+      </div>
+    </a>
+
+    <a href="https://s.shopee.com.br/8paA92VK4m" class="product-item">
+      <img src="force.png" alt="Tênis Force" class="product-img">
+      <div class="product-info">
+        <div class="product-name">R$58,48 TÊNIS FORCE</div>
+        <div class="product-desc">Design limpo e versátil. Dá pra usar tanto no dia a dia quanto em evento.</div>
+      </div>
+    </a>
+  </div>
+</body>
 </html>
